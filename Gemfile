@@ -18,8 +18,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'devise', '~> 4.6.2'
 # gem 'paperclip', '~> 6.1.0'
 gem 'bootstrap-sass', '~> 3.4.1'
-gem 'searchkick', '~> 3.1.2'
 gem 'es-reindex', '~> 0.3.3'
+gem "aws-sdk-s3", require: false
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
